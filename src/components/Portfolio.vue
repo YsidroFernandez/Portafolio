@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Portfolio.</span
+          >{{$t("projects")}}.</span
         >
       </div>
       <hr
@@ -25,7 +25,7 @@
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
 
-      <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
+      <!-- <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
       <v-tab title="design">
           <div class="row">
             <div
@@ -78,9 +78,9 @@
             </div>
           </div>
           <br />
-        </v-tab>
-        <v-tab title="development">
-          <br />
+        </v-tab> -->
+        <!-- <v-tab title="development">
+          <br /> -->
           <div class="row">
             <div
               class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
@@ -105,8 +105,8 @@
           <div class="text-center py-3" v-if="showBtn !== 'show less'">
             <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
           </div>
-        </v-tab>
-      </vue-tabs>
+        <!-- </v-tab>
+      </vue-tabs> -->
     </div>
     <transition name="modal">
       <Modal
@@ -143,7 +143,7 @@ import { VueperSlides, VueperSlide } from "vueperslides";
 import "vueperslides/dist/vueperslides.css";
 
 export default {
-  name: "Portfolio",
+  name: "projects",
   components: {
     Card,
     Modal,

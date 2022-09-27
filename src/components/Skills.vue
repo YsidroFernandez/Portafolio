@@ -10,7 +10,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Skills.</span
+          > {{$t("skills")}} .</span
         >
       </div>
       <hr
@@ -21,7 +21,7 @@
       <div class="row">
         <div
           class="col-xl-4 col-bg-4 col-md-4 col-sm-12 text-center pb-5 px-4"
-          v-for="(skill, idx) in skills"
+          v-for="(skill, idx) in $t(skills)"
           :key="skill.title"
           data-aos="fade-up"
           data-aos-offset="10"

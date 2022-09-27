@@ -1,8 +1,9 @@
 {
-  "name": "hrpaul",
+  "name": "portafolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "vue-cli-service serve --open",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -18,6 +19,7 @@
     "v-tooltip": "^2.0.3",
     "vue": "^2.6.11",
     "vue-cookie": "^1.1.4",
+    "vue-i18n": "^8.27.2",
     "vue-nav-tabs": "^0.5.7",
     "vue-parallax-js": "^0.2.3",
     "vue-router": "^3.3.4",

@@ -38,7 +38,7 @@
                 href="/about"
                 @click.prevent="$emit('scroll', 'about')"
                 :class="{ 'text-light': nightMode }"
-                >About</a
+                >{{ $t('about') }}</a
               >
             </li>
             <li class="nav-item mx-2">
@@ -47,7 +47,7 @@
                 href="/skills"
                 @click.prevent="$emit('scroll', 'skills')"
                 :class="{ 'text-light': nightMode }"
-                >Skills</a
+                >{{ $t('skills') }}</a
               >
             </li>
             <li class="nav-item mx-2 ">
@@ -56,7 +56,7 @@
                 href="/portfolio"
                 @click.prevent="$emit('scroll', 'portfolio')"
                 :class="{ 'text-light': nightMode }"
-                >Portfolio</a
+                >{{ $t('projects') }}</a
               >
             </li>
             <li class="nav-item mx-2">
@@ -65,7 +65,7 @@
                 href="/contact"
                 @click.prevent="$emit('scroll', 'contact')"
                 :class="{ 'text-light': nightMode }"
-                >Contact</a
+                >{{ $t('contact') }}</a
               >
             </li>
             <li class="nav-item ml-2">
@@ -84,7 +84,15 @@
               ></a>
             </li>
           </ul>
+          <div class="form-inline col-md-2 my-2 my-lg-0"  :class="{ pgray: !nightMode, 'text-light': nightMode }">
+            <select id="inputState" class="form-control" v-model="$root.$i18n.locale" @change="selectLanguage($event)" >
+              <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
+                {{ lang }}
+              </option>
+            </select>
+          </div>
         </div>
+
       </div>
     </nav>
   </div>
@@ -105,6 +113,7 @@ export default {
     return {
       navbarConfig: info.config.navbar,
       localNightMode: this.nightMode,
+      langs: ['en', 'es']
     };
   },
   components: {
@@ -115,6 +124,11 @@ export default {
       this.localNightMode = !this.localNightMode;
       this.$emit("nightMode", this.localNightMode);
     },
+    selectLanguage(event) {
+      console.log(event.target.value)
+      this.$cookie.set('lang',event.target.value);
+      // this.$emit("selectLang", event.target.value);
+    }
   },
 };
 </script>

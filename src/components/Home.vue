@@ -17,10 +17,10 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >Welcome to my portfolio!</span
+            >{{ $t('title') }} </span
           >
           <div>
-            <p v-html="description"></p>
+            <p>{{ $t('description') }} </p>
           </div>
           <div class="text-center pb-4">
             <button
@@ -37,13 +37,13 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('behance')"
               v-tooltip.bottom="'behance'"
             >
               <i class="fab fa-behance"></i>
-            </button>
+            </button> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
@@ -76,7 +76,6 @@ export default {
   data() {
     return {
       picture: info.flat_picture,
-      description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
@@ -112,10 +111,11 @@ export default {
 }
 
 img {
-  max-width: 800px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
   margin-top: 80px;
   transform: rotateY(180deg);
+  border-radius : 50%;
 }
 
 @media only screen and (max-width: 580px) {

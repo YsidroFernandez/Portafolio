@@ -11,11 +11,11 @@
             data-aos-mirror="true"
             data-aos-duration="1000"
           >
-            {{ data.title }}
+            {{ $t(data.title) }}
           </p>
           <ul
             class="timeline m-0 pt-1"
-            v-for="(e, idx) in data.data"
+            v-for="(e, idx) in $t(data.data)"
             :key="e.name"
             :style="{ 'transition-delay': idx / 4.2 + 's' }"
             data-aos="fade-up"
@@ -27,18 +27,18 @@
           >
             <li class="m-0 pb-2">
               <div>
-                <div class="px-2 title2">{{ e.name }}, {{ e.place }}</div>
-                <div class="px-2 title3">
+                <div class="px-2 title2">{{ $t(e.name) }}, {{ $t(e.place) }}</div>
+                <!-- <div class="px-2 title3">
                   {{ e.degree || e.position }}
                   {{ e.gpa ? "(" + e.gpa + ")" : "" }}
-                </div>
-                <div class="px-2 date">{{ e.date }}</div>
-                <div class="px-2 pb-2 pt-2" style="text-align: justify;">
+                </div> -->
+                <div class="px-2 date">{{  $t(e.date) }}</div>
+                <!-- <div class="px-2 pb-2 pt-2" style="text-align: justify;">
                   {{ e.description }}
-                </div>
+                </div> -->
                 <span
                   class="mx-2 badge p-2 mb-2"
-                  v-for="s in e.skills"
+                  v-for="s in $t(e.skills)"
                   :key="s"
                   :class="{ 'bg-dark2': nightMode }"
                   >{{ s }}</span

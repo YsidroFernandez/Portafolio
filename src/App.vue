@@ -55,6 +55,7 @@ export default {
   },
   methods: {
     switchMode(mode) {
+      console.log('MODE',mode);
       if (this.config.use_cookies) {
         this.$cookie.set("nightMode", mode);
       }
@@ -71,6 +72,14 @@ export default {
           this.$router.push(`/${ele}`);
       }
     },
+    // selectLanguage(lang) {
+    //   console.log('Lang',lang);
+    //   console.log(this.$cookie.get('lang'))
+    //   // if (this.config.use_cookies) {
+    //   //   this.$cookie.set("nightMode", mode);
+    //   // }
+    //   // this.nightMode = mode;
+    // },
   },
 };
 </script>

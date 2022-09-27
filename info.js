@@ -1,7 +1,7 @@
 let info = {
-  name: "Mahy Mohab",
-  logo_name: "Mahy",
-  flat_picture: require("./src/assets/me.png"),
+  name: "Ysidro Fernández",
+  logo_name: "Ysidro Fernández",
+  flat_picture: require("./src/assets/perfil-programmer.jpg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,90 +9,16 @@ let info = {
     }
   },
   description:
-    "hey there, I'm Mahy Mohab about to graduate from the computer and information technology KSU, SE department. A UI/UX Designer with 2+ experience familiar with Figma, xd, photoshop, illustrator, also, a Frontend Engineer with 4+ experience, and 1+ experience with react, react native, vuejs.",
+    "Hello, I'm Ysidro Fernández graduate from the computer engineer at University UCLA Venezuela. I'm Full-Stack Developer with 3+ years of experience with Angular, Ionic, Vuejs, 2+ Laravel Framework, and 1+ experience with React, React Native, Nodejs",
   links: {
-    linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
-    github: "https://github.com/mahy209",
+    linkedin: "https://www.linkedin.com/in/ysidro-jos%C3%A9-fern%C3%A1ndez-sangronis-460008125/",
+    github: "https://github.com/YsidroFernandez",
     behance: "https://www.behance.net/mahymohab",
-    resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing",
+    resume: "https://resume.io/r/Kxs8exH7H",
   },
-  education: [
-    {
-      name: "KFS University",
-      place: "Kafr Elsheikh",
-      date: "sep, 2018 - present",
-      degree: "bachelor in software engineering",
-      gpa: "3.1/4.0",
-      description:
-        "",
-      skills: [
-        "Software Engineering",
-        "web programming",
-        "UI/UX design",
-        "Front-end developing",
-      ]
-    },
-  ],
-  experience: [
-    {
-      name: "ITI",
-      place: "Kafr elSheikh, Egypt",
-      date: "1,sep, 2021 - 28,sep, 2021",
-      position: "VueJS web developer",
-      description:
-        "",
-      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "es6", "VueJS"]
-    },
-    {
-      name: "Udacity",
-      place: "Egypt",
-      date: "Jun 2021 - Jan 2022",
-      position: "React Web Developer",
-      description:
-        "",
-      skills: ["Javascript", "Typescript", "ReactJS", "React-Redux", "webpack", "NLP"]
-    },
-    {
-      name: "Freelancer",
-      place: "Egypt",
-      date: "jun, 2021 - sep, 2021",
-      position: "Junior UI/UX Designer",
-      description: "creating apps and web UI, Creating Interactive prototypes, Low fidelity and UX researches",
-      skills: ["figma", "Adobe XD", "Photoshop", "Illustrator"]
-    },
-    {
-      name: "Technopolitan",
-      place: "Cairo, Egypt",
-      date: "Jan 2022 - Present",
-      position: "Mid-Level UI/UX Designer",
-      description: "part of team include project managers and developers to create technically feasible design, creating 95% of CRM of the company ,creating user experience and interface using adobe XD for best user solution ,finishing 80% of tasks before the target ",
-      skills: ["figma", "Adobe XD"]
-    },
-  ],
-  skills: [
-    {
-      title: "UX/UI Design",
-      info: ["Figma", "Illustrator", "XD", "Photoshop", "Gimp"],
-      icon: "fa fa-pencil-square-o"
-    },
-    {
-      title: "Language",
-      info: [
-        "Python","Javascript","TypeScript","Java","C#"],
-      icon: "fa fa-code"
-    },
-    {
-      title: "Front-end",
-      info: [
-        "HTML5","CSS3","Bootstrap3","Es6"],
-      icon: "fa fa-cubes"
-    },
-    {
-      title: "web technologies",
-      info: ["Vue", "React", "Node"],
-      icon: "fas fa-laptop-code"
-    },
-  ],
+  education: "education",
+  experience: "experiences",
+  skills: "skills_array",
   portfolio_design: [
     {
       name: "Keep it Green",

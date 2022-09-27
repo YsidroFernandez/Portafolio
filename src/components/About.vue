@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >About Me.</span
+          > {{ $t('about_me') }} .</span
         >
       </div>
       <hr
@@ -51,17 +51,24 @@ export default {
     },
   },
   data() {
+     this.$i18n.locale = this.$cookie.get("lang");
     return {
       education: {
-        title: "education",
-        data: info.education,
+        title: 'study',
+        data:  info.education,
       },
       experience: {
-        title: "experiences",
+        title: "works",
         data: info.experience,
       },
     };
   },
+  watch: {
+    education (val) {
+      console.log(val);
+      this.$i18n.locale = val
+    }
+  }
 };
 </script>
 

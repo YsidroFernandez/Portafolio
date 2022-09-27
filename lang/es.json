@@ -1,0 +1,128 @@
+{
+    "name" : "Ysidro Fernández",
+    "logo_name" : "Ysidro Fernández",
+    "title" : "Bienvenidos a mi portafolio",
+    "description" : "Hola, soy Ysidro Fernández Ingeniero en Informática graduado de la Universidad UCLA Venezuela. Soy Desarrollador Full-Stack con 3+ años de experiencia con Angular, Ionic, Vuejs, 2+ Laravel Framework, y 1+ experiencia con React, React Native, Nodejs.",
+    "about_me" : "Acerca de mi",
+    "about" : "Acerca de",
+    "skills" : "Habilidades",
+    "projects" : "Proyectos",
+    "contact" : "Contacto",
+    "study" : "Educación",
+    "education": [
+      {
+        "name": "Universidad Centroccidental Lisandro Alvarado UCLA",
+        "place": "Lara,Venezuela",
+        "date": "Mayo, 2019",
+        "degree": "Ingeniero en Informática",
+        "gpa": "3.1/4.0",
+        "description":"",
+        "skills": [
+          "Programación orientada a objetos (POO)",
+          "Desarrollo móvil",
+          "Desarrollo Back-end",
+          "Desarrollo Front-end"
+        ]
+      }
+    ],
+    "works" :"Experiencia",
+    "experiences": [
+      {
+        "name": "CIDE,SA",
+        "place": "Barquisimeto, Venezuela",
+        "date": "Junio, 2017 - Enero, 2018",
+        "position": "Web developer",
+        "description":
+          "",
+        "skills": ["Git","Trello", "Vue.js", "Bootstrap", "Docker", "JavaSript", "TypeSript"]
+      },
+      {
+        "name": "Freelancer Developer",
+        "place": "Barquisimeto, Venezuela",
+        "date": "Junio 2018 - Agosto 2020",
+        "position": "Full-Stack Developer",
+        "description":
+          "",
+        "skills": ["Git", "Javascript", "Typescript", "Angular.js","RJSX", "Vue.js", "Vuetify" ,"React-Redux", "Bootstrap", "Electron", "Ionic Framework", "Laravel", "MySql"]
+      },
+      {
+        "name": "NAJO Consultores",
+        "place": "Barquisimeto, Venezuela",
+        "date": "Junio, 2018 - Julio, 2019",
+        "position": "Front-end Developer",
+        "description": "",
+        "skills": ["React.js", "Redux", "React-Router", "Material UI", "Electron", "React Native", "OnsenUI", "Vue.js", "Vuetify", "Vue-Router", "Vuex"]
+      },
+      {
+        "name": "ARKITECK",
+        "place": "Barquisimeto, Venezuela",
+        "date": "Mayo 2019 - Noviembre 2019",
+        "position": "Front-end Developer",
+        "description": "",
+        "skills": ["React.js", "Redux", "React-Router", "Vue.js","Material UI","Vuetify", "Vuex","Jest Framework"]
+      },
+      {
+        "name": "Raxione",
+        "place": "Cuernavaca Mor, México",
+        "date": "Febrero 2020 - Noviembre 2020",
+        "position": "Front-end Developer",
+        "description": "",
+        "skills": ["Ionic Framework", "Flutter", "Laravel", "Bootstrap", "Vue.js", "MySql", "PostgreSQL", "Git"]
+      },
+      {
+        "name": "MAXIA",
+        "place": "Panamá, Panamá",
+        "date": "Febrero 2020 - Noviembre 2020",
+        "position": "Full-Stack Developer",
+        "description": "",
+        "skills": ["HTML5", "Javascript", "JQuery", "Bootstrap", "PHP7", "MySql"]
+      },
+      {
+        "name": "789.mx",
+        "place": "México, México",
+        "date": "Diciembre 2020 - Presente",
+        "position": "Full-Stack Developer",
+        "description": "",
+        "skills": ["HTML5", "Javascript", "JQuery", "Bootstrap","Ionic Framework", "Vue.js", "PHP7", "Laravel", "Mysql"]
+      },
+      {
+        "name": "HLS Group",
+        "place": "Naucalpan de Juárez, México",
+        "date": "Septiembre 2021 - Presente",
+        "position": "Full-Stack Developer",
+        "description": "",
+        "skills": ["HTML5", "Javascript", "Bootstrap","Ionic Framework", "Vue.js","Vuetify","Angular.js", "Angular Material" ,"RJSX", "TailwindCSS"]
+      }
+    ],
+    "skills_array": [
+      {
+        "title": "UX/UI Design",
+        "info": ["Figma"],
+        "icon": "fa fa-pencil-square-o"
+      },
+      {
+        "title": "Lenguajes",
+        "info": [
+          "C++","Javascript","TypeScript","PHP"],
+        "icon": "fa fa-code"
+      },
+      {
+        "title": "Front-end",
+        "info": ["Javascript","Angular.js","Vue.js", "React.js","HTML5","PHP", "JQuery","Bootstrap","Angular Material","Material UI","Vuetify","TailwindCSS","Ionic"],
+        "icon": "fas fa-laptop-code"
+      },
+      {
+        "title": "Backend-end",
+        "info": [
+          "Laravel","Node.js","PHP"],
+        "icon": "fa fa-cubes"
+      },
+      {
+        "title": "Database",
+        "info": ["MySql", "PostgreSQL", "OracleDB", "SQL Server", "MongoDB"],
+        "icon": "fas fa-database"
+      }
+    ]
+    
+    
+}
